@@ -1,10 +1,11 @@
+import {Layout} from 'antd'
 import React, {FC} from 'react';
 
 export const Event: FC = () => {
     return (
-        <div>
+        <Layout>
             EVENT PAGE
-        </div>
+        </Layout>
     );
 };
 
